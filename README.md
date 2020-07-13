@@ -29,3 +29,5 @@
 - [React](https://reactjs.org/)
 
 - [Gatsby](https://www.gatsbyjs.org/)
+
+- [Gatsby support, custom workspace layouts, and more in Nx 9.4! | Nrwl](https://blog.nrwl.io/gatsby-support-custom-workspace-layouts-and-more-in-nx-9-4-497ae105bf4)
