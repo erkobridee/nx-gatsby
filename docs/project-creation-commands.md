@@ -23,3 +23,7 @@
 > to test the production version run it with the flag `--prod`
 
 `nx serve --prod gatsby`
+
+5. add the react dev dependency to the nx workspace:
+
+`npm i --save-dev @nrwl/react`
