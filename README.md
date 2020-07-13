@@ -28,7 +28,11 @@
 
 - [Nx: Extensible Dev Tools for Monorepos (React)](https://nx.dev/react)
 
+  - [[YouTube] Nx: Extensible Dev Tools for Monorepos (React)](https://www.youtube.com/watch?v=E188J7E_MDU)
+
 - [React](https://reactjs.org/)
+
+  - [React Router](https://reactrouter.com/)
 
 - [Gatsby](https://www.gatsbyjs.org/)
 

@@ -27,3 +27,11 @@
 5. add the react dev dependency to the nx workspace:
 
 `npm i --save-dev @nrwl/react`
+
+6. create a react application (named as app) inside of the nx workspace:
+
+`nx generate @nrwl/react:app app`
+
+7. runninc the created (app) application:
+
+`nx serve app`

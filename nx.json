@@ -28,6 +28,13 @@
     "gatsby-e2e": {
       "tags": [],
       "implicitDependencies": ["gatsby"]
+    },
+    "app": {
+      "tags": []
+    },
+    "app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["app"]
     }
   }
 }
