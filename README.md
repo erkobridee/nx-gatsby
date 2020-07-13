@@ -12,7 +12,7 @@
 
 ## Project dependency graph
 
-![nx dep-graph](docs/nx-dep-graph.png)
+![nx dep-graph](docs/assets/nx-dep-graph.png)
 
 ## Findings
 
