@@ -22,7 +22,7 @@
 
 - to run the gatsby generate site inside of the nx workspace you should use the command:
 
-`nx serve generated-site-name` (on this example was `gatsby`)
+`nx serve generated-site-name` (on this example it was `gatsby`)
 
 ## Links
 
