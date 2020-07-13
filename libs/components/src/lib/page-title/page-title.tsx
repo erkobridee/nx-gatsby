@@ -3,15 +3,11 @@ import * as React from 'react';
 import './page-title.scss';
 
 export interface PageTitleProps {
-  name?: string;
+  name?: React.ReactNode;
 }
 
 export const PageTitle: React.FunctionComponent<PageTitleProps> = ({
   name = 'Nx',
-}) => (
-  <div>
-    <h1>Welcome to {name}!</h1>
-  </div>
-);
+}) => <h1>Welcome to {name}!</h1>;
 
 export default PageTitle;

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { PageTitle } from '@nx-gatsby/components';
+
 import './app.scss';
 
 import { ReactComponent as Logo } from './logo.svg';
@@ -17,7 +19,7 @@ export const App = () => {
     <div className="app">
       <header className="flex">
         <Logo width="75" height="75" />
-        <h1>Welcome to app!</h1>
+        <PageTitle name="app" />
       </header>
       <main>
         <h2>Resources &amp; Tools</h2>

@@ -12,7 +12,7 @@
 
 ## Project dependency graph
 
-- TODO: generate and add it here
+![nx dep-graph](docs/nx-dep-graph.png)
 
 ## Findings
 
@@ -23,6 +23,8 @@
 - to run the gatsby generate site inside of the nx workspace you should use the command:
 
 `nx serve generated-site-name` (on this example it was `gatsby`)
+
+- using the Gatsby inside of the Nx workspace it's basically like have 2 react applications, nothing special was notice to be able to use it
 
 ## Links
 
@@ -36,9 +38,13 @@
 
 - [Nx: Extensible Dev Tools for Monorepos (React)](https://nx.dev/react)
 
+  - [Plugins | Nx Docs](https://nx.dev/react/plugins/overview)
+
   - [[YouTube] Nx: Extensible Dev Tools for Monorepos (React)](https://www.youtube.com/watch?v=E188J7E_MDU)
 
   - [Gatsby support, custom workspace layouts, and more in Nx 9.4! | Nrwl](https://blog.nrwl.io/gatsby-support-custom-workspace-layouts-and-more-in-nx-9-4-497ae105bf4)
+
+  - [Gatsby Plugin for Nx | NPM package](https://www.npmjs.com/package/@nrwl/gatsby)
 
   - [Storybook](https://storybook.js.org/) - [Nx support](https://nx.dev/react/guides/modernize-storybook-react)
 
