@@ -16,7 +16,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-gatsby/components": ["libs/components/src/index.ts"]
+      "@nx-gatsby/components": ["libs/components/src/index.ts"],
+      "@nx-gatsby/assets/*": ["libs/assets/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -23,7 +23,7 @@
       "error",
       {
         "enforceBuildableLibDependency": true,
-        "allow": [],
+        "allow": ["@nx-gatsby/assets"],
         "depConstraints": [
           { "sourceTag": "*", "onlyDependOnLibsWithTags": ["*"] }
         ]

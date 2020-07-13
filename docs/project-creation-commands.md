@@ -47,3 +47,20 @@
 10. check the dependencies graph
 
 `nx dep-graph`
+
+11. create an assets library
+
+`nx generate @nrwl/workspace:lib assets` or `nx g @nrwl/workspace:lib assets`
+
+useful reference: [[YouTube] 9. Shared assets library and nx.json - Nx Workspaces Course, by Nrwl](https://youtu.be/LYjX2V-eQa8), the code of the example is available on the [[GitHub] nrwl/board-game-hoard](https://github.com/nrwl/board-game-hoard)
+
+after define the files structure inside of the library folder:
+
+- update the `tsconfig.json` to expose the full content of the lib
+- update `nx/enforce-module-boundaries` on `.eslintrc` and `tslint.json` to allow `@nx-gatsby/assets`
+- update the lib config on the `workspace.json`
+- update the `app` config on the `workspace.json` to map the `assets` library
+
+- ? TODO ? solve the assets library content mapping on the gatsby application
+
+- update the `nx.json` to map the `assets` lib as an implicity dependency of the `app` and `gatsby` applications

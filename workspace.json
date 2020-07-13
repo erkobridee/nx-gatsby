@@ -92,8 +92,15 @@
             "main": "apps/app/src/main.tsx",
             "polyfills": "apps/app/src/polyfills.ts",
             "tsConfig": "apps/app/tsconfig.app.json",
-            "assets": ["apps/app/src/favicon.ico", "apps/app/src/assets"],
-            "styles": ["apps/app/src/styles.scss"],
+            "assets": [
+              "apps/app/src/assets",
+              {
+                "input": "libs/assets",
+                "glob": "*.ico",
+                "output": "."
+              }
+            ],
+            "styles": ["libs/assets/styles.scss", "apps/app/src/styles.scss"],
             "scripts": [],
             "webpackConfig": "@nrwl/react/plugins/webpack"
           },
@@ -208,6 +215,12 @@
           }
         }
       }
+    },
+    "assets": {
+      "root": "libs/assets",
+      "sourceRoot": "libs/assets",
+      "projectType": "library",
+      "schematics": {}
     }
   },
   "cli": {

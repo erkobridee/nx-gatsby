@@ -23,20 +23,25 @@
   },
   "projects": {
     "gatsby": {
-      "tags": []
+      "tags": [],
+      "implicitDependencies": ["assets"]
     },
     "gatsby-e2e": {
       "tags": [],
       "implicitDependencies": ["gatsby"]
     },
     "app": {
-      "tags": []
+      "tags": [],
+      "implicitDependencies": ["assets"]
     },
     "app-e2e": {
       "tags": [],
       "implicitDependencies": ["app"]
     },
     "components": {
+      "tags": []
+    },
+    "assets": {
       "tags": []
     }
   }

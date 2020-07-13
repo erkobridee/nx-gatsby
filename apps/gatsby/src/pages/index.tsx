@@ -2,10 +2,13 @@ import React from 'react';
 
 import { PageTitle } from '@nx-gatsby/components';
 
-import './index.scss';
+import 'assets/styles.scss';
 
-import { ReactComponent as Logo } from './logo.svg';
-import star from './star.svg';
+import { ReactComponent as Logo } from 'assets/images/logo.svg';
+import star from 'assets/images/star.svg';
+
+// import { ReactComponent as Logo } from '@nx-gatsby/assets/images/logo.svg';
+// import star from '@nx-gatsby/assets/images/star.svg';
 
 export const Index = () => {
   /*
