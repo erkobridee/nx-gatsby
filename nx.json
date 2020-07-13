@@ -35,6 +35,9 @@
     "app-e2e": {
       "tags": [],
       "implicitDependencies": ["app"]
+    },
+    "components": {
+      "tags": []
     }
   }
 }
