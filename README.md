@@ -22,7 +22,7 @@
 
 - to run the gatsby generate site inside of the nx workspace you should use the command:
 
-`nx serve generated-site-name` (on this example it was `gatsby`)
+`nx serve <generated-site-name>` (on this example it was `gatsby`)
 
 - using the Gatsby inside of the Nx workspace it's basically like have 2 react applications, nothing special was notice to be able to use it
 
@@ -64,7 +64,7 @@
 
 ## Development tip
 
-- to make my life easier I have the current `node_modules` from the project mapped to the PATH env variable, that enables me to run the command `nx` directly, if you don't have if you must use the short cut mapped on the `package.json`, using it like `npm run nx ...`
+- to make my life easier I have the current `node_modules` from the project mapped to the PATH env variable, that enables me to run the command `nx` directly, if you don't have if you must use the short cut mapped on the `package.json`, using it like `npm run nx ...` or it's also possible to use like `npx nx ...` (the `npx` will look into the local installed packages `./node_modules/` and on the global installed packages)
 
   - `./node_modules/.bin`
 
