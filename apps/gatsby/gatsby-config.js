@@ -1,3 +1,7 @@
+const path = require('path');
+
+const assetsLibPath = path.resolve(__dirname, '../../', 'libs/assets');
+
 module.exports = {
   siteMetadata: {
     title: `gatsby`,
@@ -17,8 +21,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
+        name: `local-images`,
         path: `${__dirname}/src/assets/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `shared-images`,
+        path: path.resolve(assetsLibPath, 'images'),
       },
     },
     `gatsby-transformer-sharp`,
@@ -38,7 +49,13 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/assets/images/logo.png`,
+        icon: path.resolve(assetsLibPath, 'images/logo.png'),
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-root-import',
+      options: {
+        '@nx-gatsby/assets': assetsLibPath,
       },
     },
   ],

@@ -40,6 +40,10 @@
 
   - [gatsby-plugin-root-import](https://www.gatsbyjs.org/packages/gatsby-plugin-root-import/)
 
+  - [gatsby-source-filesystem](https://www.gatsbyjs.org/packages/gatsby-source-filesystem/)
+
+    - [Sourcing from the Filesystem](https://www.gatsbyjs.org/docs/sourcing-from-the-filesystem/)
+
 - [Nx: Extensible Dev Tools for Monorepos (React)](https://nx.dev/react)
 
   - [Plugins | Nx Docs](https://nx.dev/react/plugins/overview)

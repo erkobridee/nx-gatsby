@@ -60,7 +60,7 @@ after define the files structure inside of the library folder:
 - update `nx/enforce-module-boundaries` on `.eslintrc` and `tslint.json` to allow `@nx-gatsby/assets`
 - update the lib config on the `workspace.json`
 - update the `app` config on the `workspace.json` to map the `assets` library
-
-- ? TODO ? solve the assets library content mapping on the gatsby application
-
 - update the `nx.json` to map the `assets` lib as an implicity dependency of the `app` and `gatsby` applications
+- update the `gatsby-config.js` on the `gatsby` application
+  - to map the assets from the `libs/assets`
+  - install the plugin `gatsby-plugin-root-import` and map the `libs/assets` with the alias `@nx-gatsby/assets`
