@@ -14,6 +14,8 @@
 
 ![nx dep-graph](docs/assets/nx-dep-graph.png)
 
+> **implicit** - means some sort of manual configuration
+
 ## Findings
 
 - at the first try it's possible to add the Gatsby site inside of the nx workspace, the only point until now was to add the support to the project it was needed to run the following command:
@@ -25,6 +27,8 @@
 `nx serve <generated-site-name>` (on this example it was `gatsby`)
 
 - using the Gatsby inside of the Nx workspace it's basically like have 2 react applications, nothing special was notice to be able to use it
+
+- to map the `libs/assets` into the gatsby application it was needed some extra manual steps because the gatsby doesn't supports the `baseUrl` from the `tsconfig.json`
 
 ## Links
 
