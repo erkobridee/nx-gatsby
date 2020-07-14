@@ -36,6 +36,10 @@
 
   - [Gatsby Docs](https://www.gatsbyjs.org/docs/)
 
+  - [gatsby-plugin-typescript](https://www.gatsbyjs.org/packages/gatsby-plugin-typescript/) - [caveats](https://www.gatsbyjs.org/packages/gatsby-plugin-typescript/?=#caveats)
+
+  - [gatsby-plugin-root-import](https://www.gatsbyjs.org/packages/gatsby-plugin-root-import/)
+
 - [Nx: Extensible Dev Tools for Monorepos (React)](https://nx.dev/react)
 
   - [Plugins | Nx Docs](https://nx.dev/react/plugins/overview)
@@ -44,7 +48,9 @@
 
   - [Gatsby support, custom workspace layouts, and more in Nx 9.4! | Nrwl](https://blog.nrwl.io/gatsby-support-custom-workspace-layouts-and-more-in-nx-9-4-497ae105bf4)
 
-  - [Gatsby Plugin for Nx | NPM package](https://www.npmjs.com/package/@nrwl/gatsby)
+    - [Gatsby Plugin for Nx | NPM package](https://www.npmjs.com/package/@nrwl/gatsby)
+
+    - [[GitHub] nrwl/gatsby](https://github.com/nrwl/gatsby) - Nx plugin for Gatsby
 
   - [Storybook](https://storybook.js.org/) - [Nx support](https://nx.dev/react/guides/modernize-storybook-react)
 
@@ -62,6 +68,12 @@
 
   - `./node_modules/.bin`
 
-## Known issues on MacOS
+### Known Gatsby TypeScript support limitation
+
+- [gatsby-plugin-typescript caveats](https://www.gatsbyjs.org/packages/gatsby-plugin-typescript/?=#caveats)
+
+  > Does not support baseUrl. Workaround: use [gatsby-plugin-root-import](https://www.gatsbyjs.org/packages/gatsby-plugin-root-import/) and configure it to point the baseUrl value (also set baseUrl option in tsconfig.json file).
+
+### Known issues on MacOS
 
 - [How to fix the Node gyp Error: No Xcode or CLT version detected | Reactgo](https://reactgo.com/gyp-xcode-or-clt-version-detected/)
