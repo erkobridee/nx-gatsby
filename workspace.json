@@ -38,7 +38,11 @@
               "apps/gatsby/tsconfig.json",
               "apps/gatsby/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!apps/gatsby/**/*"]
+            "exclude": [
+              "**/node_modules/**",
+              "apps/gatsby/public/**/*",
+              "!apps/gatsby/**/*"
+            ]
           }
         },
         "test": {
@@ -70,8 +74,9 @@
           }
         },
         "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
+          "builder": "@nrwl/linter:lint",
           "options": {
+            "linter": "eslint",
             "tsConfig": ["apps/gatsby-e2e/tsconfig.e2e.json"],
             "exclude": ["**/node_modules/**", "!apps/gatsby-e2e/**/*"]
           }

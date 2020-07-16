@@ -26,6 +26,10 @@
 
 `nx serve <generated-site-name>` (on this example it was `gatsby`)
 
+- when I tried to run the lint over the e2e tests of the gatsby I notice a wrong configuration on the `workspace.json` which was set to the `apps/gatsby-e2e`, where it should use the same lint runner as the `apps/gatsby`
+
+- when I runned the lint over the `apps/gatsby` I get some warning messages, to remove them, I needed to change the lint configuration on the `workspace.json` to ignore the `apps/gatsby/public` folder
+
 - using the Gatsby inside of the Nx workspace it's basically like have 2 react applications, nothing special was notice to be able to use it
 
 - to map the `libs/assets` into the gatsby application it was needed some extra manual steps because the gatsby doesn't supports the `baseUrl` from the `tsconfig.json`

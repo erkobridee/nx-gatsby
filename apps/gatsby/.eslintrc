@@ -257,6 +257,15 @@
     "@typescript-eslint/no-useless-constructor": "warn",
     "@typescript-eslint/camelcase": "off"
   },
+  "overrides": [
+    {
+      "files": ["gatsby-*.js"],
+      "rules": {
+        "@typescript-eslint/no-var-requires": "off",
+        "no-undef": "off"
+      }
+    }
+  ],
   "env": {
     "browser": true,
     "commonjs": true,
