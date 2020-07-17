@@ -10,7 +10,7 @@
         "build": {
           "builder": "@nrwl/gatsby:build",
           "options": {
-            "outputPath": "apps/gatsby/public",
+            "outputPath": "dist/apps/gatsby",
             "uglify": true,
             "color": true,
             "profile": false
