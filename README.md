@@ -8,6 +8,8 @@
 
 - [Nx](docs/nx.md)
 
+  - [Nx Gatsby Plugin](docs/nx-gatsby-plugin.md)
+
 - [Project creation commands (steps)](docs/project-creation-commands.md)
 
 ## Project dependency graph
