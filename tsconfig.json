@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "paths": {
+      "@nx-gatsby/components": ["libs/components/src/index.ts"],
+      "@nx-gatsby/assets/*": ["libs/assets/*"]
+    }
+  }
+}

@@ -1,7 +1,6 @@
 const path = require('path');
 
 const assetsLibPath = path.resolve(__dirname, '../../', 'libs/assets');
-const componentsLibPath = path.resolve(__dirname, '../../', 'libs/components');
 
 module.exports = {
   siteMetadata: {
@@ -57,7 +56,6 @@ module.exports = {
       resolve: 'gatsby-plugin-root-import',
       options: {
         '@nx-gatsby/assets': assetsLibPath,
-        '@nx-gatsby/components': `${componentsLibPath}/src/index`,
       },
     },
   ],
