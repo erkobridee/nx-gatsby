@@ -42,6 +42,7 @@
     "@nrwl/cypress": "10.2.1",
     "@nrwl/eslint-plugin-nx": "10.2.1",
     "@nrwl/gatsby": "^0.951.0",
+    "@nrwl/linter": "10.2.1",
     "@nrwl/jest": "10.2.1",
     "@nrwl/react": "10.2.1",
     "@nrwl/web": "10.2.1",
