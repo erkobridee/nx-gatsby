@@ -27,10 +27,10 @@
   },
   "private": true,
   "dependencies": {
+    "document-register-element": "1.13.1",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-helmet": "5.2.1",
-    "document-register-element": "1.13.1",
     "react-router-dom": "5.2.0"
   },
   "devDependencies": {
@@ -39,11 +39,12 @@
     "@babel/preset-env": "7.9.6",
     "@babel/preset-react": "7.9.4",
     "@babel/preset-typescript": "7.9.0",
+    "@nrwl/cli": "10.3.0",
     "@nrwl/cypress": "10.3.0",
     "@nrwl/eslint-plugin-nx": "10.3.0",
     "@nrwl/gatsby": "^0.951.0",
-    "@nrwl/linter": "10.3.0",
     "@nrwl/jest": "10.3.0",
+    "@nrwl/linter": "10.3.0",
     "@nrwl/react": "10.3.0",
     "@nrwl/web": "10.3.0",
     "@nrwl/workspace": "10.3.0",

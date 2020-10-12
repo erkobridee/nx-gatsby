@@ -31,17 +31,16 @@
           }
         },
         "lint": {
-          "builder": "@nrwl/linter:lint",
+          "builder": "@nrwl/linter:eslint",
           "options": {
-            "linter": "eslint",
-            "tsConfig": [
-              "apps/gatsby/tsconfig.json",
-              "apps/gatsby/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**",
-              "apps/gatsby/public/**/*",
-              "!apps/gatsby/**/*"
+            "lintFilePatterns": [
+              "apps/gatsby/**/*.spec.ts",
+              "apps/gatsby/**/*.spec.tsx",
+              "apps/gatsby/**/*.spec.js",
+              "apps/gatsby/**/*.spec.jsx",
+              "apps/gatsby/**/*.d.ts",
+              "node_modules/@nrwl/react/typings/cssmodule.d.ts",
+              "node_modules/@nrwl/react/typings/image.d.ts"
             ]
           }
         },
@@ -73,11 +72,12 @@
           }
         },
         "lint": {
-          "builder": "@nrwl/linter:lint",
+          "builder": "@nrwl/linter:eslint",
           "options": {
-            "linter": "eslint",
-            "tsConfig": ["apps/gatsby-e2e/tsconfig.e2e.json"],
-            "exclude": ["**/node_modules/**", "!apps/gatsby-e2e/**/*"]
+            "lintFilePatterns": [
+              "apps/gatsby-e2e/src/**/*.ts",
+              "apps/gatsby-e2e/src/**/*.js"
+            ]
           }
         }
       }
@@ -145,14 +145,21 @@
           }
         },
         "lint": {
-          "builder": "@nrwl/linter:lint",
+          "builder": "@nrwl/linter:eslint",
           "options": {
-            "linter": "eslint",
-            "tsConfig": [
-              "apps/app/tsconfig.app.json",
-              "apps/app/tsconfig.spec.json"
-            ],
-            "exclude": ["**/node_modules/**", "!apps/app/**/*"]
+            "lintFilePatterns": [
+              "apps/app/**/*.js",
+              "apps/app/**/*.jsx",
+              "apps/app/**/*.ts",
+              "apps/app/**/*.tsx",
+              "node_modules/@nrwl/react/typings/cssmodule.d.ts",
+              "node_modules/@nrwl/react/typings/image.d.ts",
+              "apps/app/**/*.spec.ts",
+              "apps/app/**/*.spec.tsx",
+              "apps/app/**/*.spec.js",
+              "apps/app/**/*.spec.jsx",
+              "apps/app/**/*.d.ts"
+            ]
           }
         },
         "test": {
@@ -183,11 +190,12 @@
           }
         },
         "lint": {
-          "builder": "@nrwl/linter:lint",
+          "builder": "@nrwl/linter:eslint",
           "options": {
-            "linter": "eslint",
-            "tsConfig": ["apps/app-e2e/tsconfig.e2e.json"],
-            "exclude": ["**/node_modules/**", "!apps/app-e2e/**/*"]
+            "lintFilePatterns": [
+              "apps/app-e2e/src/**/*.ts",
+              "apps/app-e2e/src/**/*.js"
+            ]
           }
         }
       }
@@ -199,14 +207,21 @@
       "schematics": {},
       "architect": {
         "lint": {
-          "builder": "@nrwl/linter:lint",
+          "builder": "@nrwl/linter:eslint",
           "options": {
-            "linter": "eslint",
-            "tsConfig": [
-              "libs/components/tsconfig.lib.json",
-              "libs/components/tsconfig.spec.json"
-            ],
-            "exclude": ["**/node_modules/**", "!libs/components/**/*"]
+            "lintFilePatterns": [
+              "libs/components/**/*.js",
+              "libs/components/**/*.jsx",
+              "libs/components/**/*.ts",
+              "libs/components/**/*.tsx",
+              "node_modules/@nrwl/react/typings/cssmodule.d.ts",
+              "node_modules/@nrwl/react/typings/image.d.ts",
+              "libs/components/**/*.spec.ts",
+              "libs/components/**/*.spec.tsx",
+              "libs/components/**/*.spec.js",
+              "libs/components/**/*.spec.jsx",
+              "libs/components/**/*.d.ts"
+            ]
           }
         },
         "test": {
