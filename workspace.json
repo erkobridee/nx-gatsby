@@ -49,7 +49,6 @@
           "builder": "@nrwl/jest:jest",
           "options": {
             "jestConfig": "apps/gatsby/jest.config.js",
-            "tsConfig": "apps/gatsby/tsconfig.spec.json",
             "passWithNoTests": true
           }
         }
@@ -160,7 +159,6 @@
           "builder": "@nrwl/jest:jest",
           "options": {
             "jestConfig": "apps/app/jest.config.js",
-            "tsConfig": "apps/app/tsconfig.spec.json",
             "passWithNoTests": true
           }
         }
@@ -215,7 +213,6 @@
           "builder": "@nrwl/jest:jest",
           "options": {
             "jestConfig": "libs/components/jest.config.js",
-            "tsConfig": "libs/components/tsconfig.spec.json",
             "passWithNoTests": true
           }
         }
