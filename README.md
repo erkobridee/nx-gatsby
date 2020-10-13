@@ -34,7 +34,7 @@
 
 - using the Gatsby inside of the Nx workspace it's basically like have 2 react applications, nothing special was notice to be able to use it
 
-- to map the `libs/assets` into the gatsby application it was needed some extra manual steps because the gatsby doesn't supports the `baseUrl` from the `tsconfig.json`
+- to map the `libs/assets` into the gatsby application it was needed some extra manual steps because the gatsby doesn't supports the `baseUrl` from the `tsconfig.base.json`
 
 ## Links
 
