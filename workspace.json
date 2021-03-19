@@ -47,7 +47,10 @@
           "options": {
             "jestConfig": "apps/gatsby/jest.config.js",
             "passWithNoTests": true
-          }
+          },
+          "outputs": [
+            "coverage/apps/gatsby"
+          ]
         }
       }
     },
@@ -102,7 +105,10 @@
                 "output": "."
               }
             ],
-            "styles": ["libs/assets/styles.scss", "apps/app/src/styles.scss"],
+            "styles": [
+              "libs/assets/styles.scss",
+              "apps/app/src/styles.scss"
+            ],
             "scripts": [],
             "webpackConfig": "@nrwl/react/plugins/webpack"
           },
@@ -129,7 +135,10 @@
                 }
               ]
             }
-          }
+          },
+          "outputs": [
+            "{options.outputPath}"
+          ]
         },
         "serve": {
           "builder": "@nrwl/web:dev-server",
@@ -163,7 +172,10 @@
           "options": {
             "jestConfig": "apps/app/jest.config.js",
             "passWithNoTests": true
-          }
+          },
+          "outputs": [
+            "coverage/apps/app"
+          ]
         }
       }
     },
@@ -223,7 +235,10 @@
           "options": {
             "jestConfig": "libs/components/jest.config.js",
             "passWithNoTests": true
-          }
+          },
+          "outputs": [
+            "coverage/libs/components"
+          ]
         }
       }
     },
