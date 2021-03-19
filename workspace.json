@@ -38,9 +38,7 @@
               "apps/gatsby/**/*.spec.tsx",
               "apps/gatsby/**/*.spec.js",
               "apps/gatsby/**/*.spec.jsx",
-              "apps/gatsby/**/*.d.ts",
-              "node_modules/@nrwl/react/typings/cssmodule.d.ts",
-              "node_modules/@nrwl/react/typings/image.d.ts"
+              "apps/gatsby/**/*.d.ts"
             ]
           }
         },
@@ -152,8 +150,6 @@
               "apps/app/**/*.jsx",
               "apps/app/**/*.ts",
               "apps/app/**/*.tsx",
-              "node_modules/@nrwl/react/typings/cssmodule.d.ts",
-              "node_modules/@nrwl/react/typings/image.d.ts",
               "apps/app/**/*.spec.ts",
               "apps/app/**/*.spec.tsx",
               "apps/app/**/*.spec.js",
@@ -214,8 +210,6 @@
               "libs/components/**/*.jsx",
               "libs/components/**/*.ts",
               "libs/components/**/*.tsx",
-              "node_modules/@nrwl/react/typings/cssmodule.d.ts",
-              "node_modules/@nrwl/react/typings/image.d.ts",
               "libs/components/**/*.spec.ts",
               "libs/components/**/*.spec.tsx",
               "libs/components/**/*.spec.js",
