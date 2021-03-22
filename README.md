@@ -1,5 +1,10 @@
 # NxGatsby
 
+> It's no possible to upgrade to the Gatsby v3 right now, because the
+> nx gatsby plugin ([code](https://github.com/nrwl/gatsby)) doesn't support it
+>
+> [Update to gatsby version 3.0.1 #41](https://github.com/nrwl/gatsby/issues/41)
+
 ## Goal
 
 - check how the Gatsby works with Nx
