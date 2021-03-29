@@ -23,7 +23,10 @@
     "update": "nx migrate latest",
     "dep-graph": "nx dep-graph",
     "help": "nx help",
-    "workspace-generator": "nx workspace-generator"
+    "workspace-generator": "nx workspace-generator",
+    "clean:node-modules:cache": "npx rimraf node_modules/.cache",
+    "clean:gatsby": "npx rimraf apps/gatsby/public apps/gatsby/.cache",
+    "clean": "npx run-p clean:node-modules:cache clean:gatsby"
   },
   "private": true,
   "dependencies": {
@@ -83,9 +86,11 @@
     "gatsby-source-filesystem": "2.1.46",
     "gatsby-transformer-sharp": "2.3.13",
     "jest": "26.2.2",
-    "node-sass": "4.14.1",
+    "npm-run-all": "^4.1.5",
     "prettier": "2.2.1",
     "prop-types": "15.7.2",
+    "rimraf": "^3.0.2",
+    "sass": "^1.32.8",
     "shelljs": "^0.8.4",
     "ts-jest": "26.4.0",
     "ts-node": "9.1.1",
