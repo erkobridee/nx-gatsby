@@ -3,7 +3,9 @@
 > It's no possible to upgrade to the Gatsby v3 right now, because the
 > nx gatsby plugin ([code](https://github.com/nrwl/gatsby)) doesn't support it
 >
-> [Update to gatsby version 3.0.1 #41](https://github.com/nrwl/gatsby/issues/41)
+> [[GitHub] nrwl/gatsby - Update to gatsby version 3.0.1 #41](https://github.com/nrwl/gatsby/issues/41)
+>
+> [[GitHub] nrwl/nx - Gatsby v3.0.0 Support #4966](https://github.com/nrwl/nx/issues/4966)
 
 ## Goal
 
