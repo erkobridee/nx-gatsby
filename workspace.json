@@ -48,9 +48,7 @@
             "jestConfig": "apps/gatsby/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": [
-            "coverage/apps/gatsby"
-          ]
+          "outputs": ["coverage/apps/gatsby"]
         }
       }
     },
@@ -105,10 +103,7 @@
                 "output": "."
               }
             ],
-            "styles": [
-              "libs/assets/styles.scss",
-              "apps/app/src/styles.scss"
-            ],
+            "styles": ["libs/assets/styles.scss", "apps/app/src/styles.scss"],
             "scripts": [],
             "webpackConfig": "@nrwl/react/plugins/webpack"
           },
@@ -136,9 +131,7 @@
               ]
             }
           },
-          "outputs": [
-            "{options.outputPath}"
-          ]
+          "outputs": ["{options.outputPath}"]
         },
         "serve": {
           "builder": "@nrwl/web:dev-server",
@@ -173,9 +166,7 @@
             "jestConfig": "apps/app/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": [
-            "coverage/apps/app"
-          ]
+          "outputs": ["coverage/apps/app"]
         }
       }
     },
@@ -236,9 +227,7 @@
             "jestConfig": "libs/components/jest.config.js",
             "passWithNoTests": true
           },
-          "outputs": [
-            "coverage/libs/components"
-          ]
+          "outputs": ["coverage/libs/components"]
         }
       }
     },
@@ -246,7 +235,8 @@
       "root": "libs/assets",
       "sourceRoot": "libs/assets",
       "projectType": "library",
-      "schematics": {}
+      "schematics": {},
+      "architect": {}
     }
   },
   "cli": {
