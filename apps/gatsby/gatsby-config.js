@@ -3,6 +3,9 @@ const path = require('path');
 const assetsLibPath = path.resolve(__dirname, '../../', 'libs/assets');
 
 module.exports = {
+  flags: {
+    DEV_SSR: false,
+  },
   siteMetadata: {
     title: `gatsby`,
     description: `This is a gatsby application created by Nx.`,
