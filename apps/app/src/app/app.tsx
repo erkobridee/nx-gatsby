@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { PageTitle } from '@nx-gatsby/components';
 
 import { ReactComponent as Logo } from '@nx-gatsby/assets/images/logo.svg';
