@@ -23,14 +23,6 @@
     }
   },
   "projects": {
-    "gatsby": {
-      "tags": [],
-      "implicitDependencies": ["assets"]
-    },
-    "gatsby-e2e": {
-      "tags": [],
-      "implicitDependencies": ["gatsby"]
-    },
     "app": {
       "tags": [],
       "implicitDependencies": ["assets"]
@@ -39,11 +31,27 @@
       "tags": [],
       "implicitDependencies": ["app"]
     },
+    "assets": {
+      "tags": []
+    },
     "components": {
       "tags": []
     },
-    "assets": {
-      "tags": []
+    "gatsby": {
+      "tags": [],
+      "implicitDependencies": ["assets"]
+    },
+    "gatsby-e2e": {
+      "tags": [],
+      "implicitDependencies": ["gatsby"]
     }
+  },
+  "targetDependencies": {
+    "build": [
+      {
+        "target": "build",
+        "projects": "dependencies"
+      }
+    ]
   }
 }
